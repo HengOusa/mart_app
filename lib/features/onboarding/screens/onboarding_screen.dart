@@ -61,7 +61,7 @@ class OnboardingScreen extends StatelessWidget {
                       margin: const EdgeInsets.symmetric(horizontal: 4),
                       height: 8,
                       width: isActive ? 28 : 8,
-                      decoration: BoxDecoration(
+                      decoration: BoxDecoration( 
                         color: isActive
                             ? AppColors.primaryColor
                             : Colors.grey.shade300,
