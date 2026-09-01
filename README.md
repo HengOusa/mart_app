@@ -4,13 +4,6 @@ A new Flutter project.
 
 # ecommerce_app
 
-A new Flutter project.
+I have changed
 
-# ecommerce_app
-
-A new Flutter project.
-
-# ecommerce_app
-
-A new Flutter project.
 
