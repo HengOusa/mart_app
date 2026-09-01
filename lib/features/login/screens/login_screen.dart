@@ -188,10 +188,12 @@ class _LoginScreenState extends State<LoginScreen> {
                                 Checkbox(
                                   value: rememberMe,
                                   activeColor: AppColors.primaryColor,
-                                  onChanged: (bool? value) {
+                                  onChanged: (value) {
                                     setState(() {
-                                      rememberMe = value ?? false;
+                                      rememberMe = value ?? true;
                                     });
+                                    print('Remember me: $rememberMe');
+                                    print(value);
                                   },
                                 ),
                                 const Text('Remember me'),
@@ -199,7 +201,7 @@ class _LoginScreenState extends State<LoginScreen> {
                             ),
                             TextButton(
                               onPressed: () {
-                                // TODO: Implement forgot password functionality
+                                //
                               },
                               child: const Text(
                                 'Forgot Password?',
