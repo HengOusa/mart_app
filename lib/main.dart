@@ -1,5 +1,6 @@
 import 'package:ecommerce_app/core/routes/app_pages.dart';
 import 'package:ecommerce_app/core/routes/app_routes.dart';
+import 'package:ecommerce_app/features/product/screen/product_detail.dart';
 import 'package:ecommerce_app/features/widgets/bottomNavigationBar/bottom_nav_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -32,7 +33,11 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
       debugShowCheckedModeBanner: false,
-      home: BottomNavBar(),
+      initialRoute: '/',
+      routes: {
+        '/': (context) => const BottomNavBar(),
+        '/productDetail': (context) => const ProductDetail(),
+      },
     );
   }
 }

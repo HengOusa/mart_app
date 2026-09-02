@@ -1,4 +1,7 @@
 import 'package:ecommerce_app/core/constants/app_colors.dart';
+import 'package:ecommerce_app/features/login/home/screen/home_screen.dart';
+import 'package:ecommerce_app/features/product/screen/product_detail.dart';
+import 'package:ecommerce_app/features/product/screen/product_screen.dart';
 import 'package:flutter/material.dart';
 
 class BottomNavBar extends StatefulWidget {
@@ -11,9 +14,9 @@ class BottomNavBar extends StatefulWidget {
 class _BottomNavBarState extends State<BottomNavBar> {
   int _selectedIndex = 0;
   final List<Widget> _pages = const [
-    Center(child: Text('Home Page')),
-    Center(child: Text('Search Page')),
-    Center(child: Text('Profile Page')),
+    ProductScreen(),
+    ProductDetail(),
+    HomeScreen(),
   ];
 
   @override

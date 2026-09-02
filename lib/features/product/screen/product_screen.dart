@@ -6,11 +6,18 @@ class ProductScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Product Screen'),
-      ),
-      body: const Center(
-        child: Text('Welcome to the Product Screen!'),
+      appBar: AppBar(title: const Text('Product Screen')),
+      body: Center(
+        child: ElevatedButton(
+          onPressed: () {
+            Navigator.pushNamed(
+              context,
+              '/productDetail',
+              arguments: 'Hello from Product Screen',
+            );
+          },
+          child: const Text("Pass Data"),
+        ),
       ),
     );
   }
