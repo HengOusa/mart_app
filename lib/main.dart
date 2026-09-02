@@ -1,5 +1,6 @@
 import 'package:ecommerce_app/core/routes/app_pages.dart';
 import 'package:ecommerce_app/core/routes/app_routes.dart';
+import 'package:ecommerce_app/features/widgets/bottomNavigationBar/bottom_nav_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -11,16 +12,27 @@ class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   // This widget is the root of your application.
+  // @override
+  // Widget build(BuildContext context) {
+  //   return GetMaterialApp(
+  //     title: 'Flutter Demo',
+  //     theme: ThemeData(
+  //       colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+  //     ),
+  //     debugShowCheckedModeBanner: false,
+  //     initialRoute: AppRoutes.onboardingScreen,
+  //     getPages: AppPages.routes,
+  //   );
+  // }
   @override
   Widget build(BuildContext context) {
-    return GetMaterialApp(
+    return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
       debugShowCheckedModeBanner: false,
-      initialRoute: AppRoutes.onboardingScreen,
-      getPages: AppPages.routes,
+      home: BottomNavBar(),
     );
   }
 }
