@@ -1,6 +1,7 @@
-import 'package:ecommerce_app/core/constants/app_colors.dart';
-import 'package:ecommerce_app/core/constants/app_images.dart';
+
 import 'package:flutter/material.dart';
+import 'package:mart_app/core/constants/app_colors.dart';
+import 'package:mart_app/core/constants/app_images.dart';
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key});

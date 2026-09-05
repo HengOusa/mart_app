@@ -1,6 +1,8 @@
-import 'package:ecommerce_app/core/constants/app_images.dart';
-import 'package:ecommerce_app/core/constants/app_strings.dart';
-import 'package:ecommerce_app/features/onboarding/models/onboarding_model.dart';
+
+
+import 'package:mart_app/core/constants/app_images.dart';
+import 'package:mart_app/core/constants/app_strings.dart';
+import 'package:mart_app/features/onboarding/models/onboarding_model.dart';
 
 class OnboardingData {
   static List<OnboardingModel> items = [

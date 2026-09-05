@@ -1,9 +1,7 @@
-import 'package:ecommerce_app/core/routes/app_pages.dart';
-import 'package:ecommerce_app/core/routes/app_routes.dart';
-import 'package:ecommerce_app/features/product/screen/product_detail.dart';
-import 'package:ecommerce_app/features/widgets/bottomNavigationBar/bottom_nav_bar.dart';
+
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
+import 'package:mart_app/features/product/screen/product_detail.dart';
+import 'package:mart_app/features/widgets/bottomNavigationBar/bottom_nav_bar.dart';
 
 void main() {
   runApp(const MyApp());

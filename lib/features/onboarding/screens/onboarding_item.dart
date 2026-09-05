@@ -1,7 +1,7 @@
 
-import 'package:ecommerce_app/core/constants/app_colors.dart';
-import 'package:ecommerce_app/features/onboarding/models/onboarding_model.dart';
 import 'package:flutter/material.dart';
+import 'package:mart_app/core/constants/app_colors.dart';
+import 'package:mart_app/features/onboarding/models/onboarding_model.dart';
 
 class OnboardingItem extends StatelessWidget {
   final OnboardingModel item;

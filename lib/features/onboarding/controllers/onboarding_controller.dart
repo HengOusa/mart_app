@@ -1,6 +1,7 @@
-import 'package:ecommerce_app/core/routes/app_routes.dart';
-import 'package:ecommerce_app/features/onboarding/data/onboarding_data.dart';
+
 import 'package:get/get.dart';
+import 'package:mart_app/core/routes/app_routes.dart';
+import 'package:mart_app/features/onboarding/data/onboarding_data.dart';
 
 class OnboardingController extends GetxController {
   final RxInt currentPage = 0.obs;

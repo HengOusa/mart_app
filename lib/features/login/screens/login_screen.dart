@@ -1,8 +1,9 @@
-import 'package:ecommerce_app/core/constants/app_colors.dart';
-import 'package:ecommerce_app/core/routes/app_routes.dart';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:mart_app/core/constants/app_colors.dart';
+import 'package:mart_app/core/routes/app_routes.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});

@@ -1,8 +1,9 @@
-import 'package:ecommerce_app/core/constants/app_colors.dart';
-import 'package:ecommerce_app/features/login/home/screen/home_screen.dart';
-import 'package:ecommerce_app/features/product/screen/product_detail.dart';
-import 'package:ecommerce_app/features/product/screen/product_screen.dart';
+
 import 'package:flutter/material.dart';
+import 'package:mart_app/core/constants/app_colors.dart';
+import 'package:mart_app/features/login/home/screen/home_screen.dart';
+import 'package:mart_app/features/product/screen/product_detail.dart';
+import 'package:mart_app/features/product/screen/product_screen.dart';
 
 class BottomNavBar extends StatefulWidget {
   const BottomNavBar({super.key});

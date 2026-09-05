@@ -1,5 +1,6 @@
-import 'package:ecommerce_app/constants/color.dart';
+
 import 'package:flutter/material.dart';
+import 'package:mart_app/constants/color.dart';
 
 class MyWidget extends StatelessWidget {
   const MyWidget({super.key});
